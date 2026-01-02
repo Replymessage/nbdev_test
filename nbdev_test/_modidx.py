@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Replymessage.github.io',
                 'git_url': 'https://github.com/Replymessage/nbdev_test',
                 'lib_path': 'nbdev_test'},
-  'syms': {'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
+  'syms': { 'nbdev_test.core': { 'nbdev_test.core.fun': ('test_fun.html#fun', 'nbdev_test/core.py'),
+                                 'nbdev_test.core.say_hello': ('test_fun.html#say_hello', 'nbdev_test/core.py')}}}
